@@ -14,9 +14,11 @@ Books](https://google.com/books).
 Most of my development was in C++ or Python or some variant of SQL
 augmented with frameworks like [Apache Beam](https://beam.apache.org/)
 and pandas.  My favourite tools are interactive environments that let me
-dig into data easily &mdash; Jupyter notebooks and Google Sheets &mdash;
-because most of my job has been looking at data to see what signal might
-be useful, what training examples look like, or what's wrong with someone's code.
+dig into data easily &mdash; Jupyter notebooks and (perhaps surprisingly)
+Google Sheets.   Interactive tools let you explore large data sets (logs, web signals, reference data sets, code outputs) and give you evidence for the important questions:
++ what might be interesting enough to users to build?
++ what signals might be useful to build into something great?
++ what the heck is wrong with maciej's code?
 
 
 2012-2020  Google Travel, Maps, Search and Personalization
@@ -43,8 +45,8 @@ Travel Assistant.
 </tr></table>
 
 **Contextualization through Email Understanding** I led a team of great
-colleagues in building the software to automatically extract flight and
-hotel reservations from _free form_ e-mail.  The challenges here were
+engineers to build the software Gmail uses to automatically extract flight
+and hotel reservations from _free form_ e-mail.  The challenges here were
 factoring the problem, putting together a good debugging framework, and
 keeping the code fast and contained enough to process billions of emails
 a day that we could never observe.  Over my tenure we doubled the recall
@@ -52,24 +54,24 @@ of the system to 90-95% and reduced our error rate from 20% down to 1.5%.
 
 The extracted reservations enabled assistance by adding events to the
 user's calendar and view of Google Maps so their flight number, status,
-and hotel are highlighted when they need it where they need it.
+and hotel are highlighted when they need it and where they need it.
 
 
-**All the world's Tourist Attractions, ranked**  I was a core member of the
-team that combined the best of the web with Google's Knowledge Graph to
+**All the world's Tourist Attractions, ranked**  I was a team lead for
+the group that combined the best of the web with Google's Knowledge Graph to
 select which places should show up as attractions and decide how they're ranked
-in Google Search and Local Search as well as how they're ranked in
+in Google Search and Local Search, as well as how they rank and appear on
 the base layer of Google Maps.  This work affect tens of millions of
 Search results each day, and led to millions more place sheet opens per
-day from Maps and Search as users as they more easily found the places that would delight.
+day from Maps and Search as users more easily found the places that would delight.
 
 
 **Personalized Travel Recommendations**  Though world capitals have
 literally tens of thousands of tourist attractions, users don't tend to
 look past the first dozen.  For users who opt in to share record their
 location with [Google Maps Timeline](https://google.com/maps/timeline),
- we give them bespoke travel recommendations.  I launched this work 
-with Will Bradbury.  The recommender is based on an embedding model
+ we give them bespoke travel recommendations.  Will Bradbury and I launched this work 
+to Google's Travel Mobile experience.  Our recommender is based on an embedding model
 we developed for attractions combined with training per-user classifiers
 based on what the user choses to do &mdash; or not-do &mdash; on their vacations.
 
