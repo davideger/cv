@@ -1,7 +1,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z2DVBLC0CV">
-</script>
+<script
+async src="https://www.googletagmanager.com/gtag/js?id=G-Z2DVBLC0CV"></script>
 
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -42,8 +42,10 @@ New York and Zürich offices to make Google Search and Maps a great
 Travel Assistant.
 
 <table>
-<tr><td colspan=3 align=center>
-<a href="https://youtu.be/gVnnBUZdfoc">Google as Travel Assistant</a>
+<tr>
+  <td colspan=3 align=center>
+  <a href="https://youtu.be/gVnnBUZdfoc">Google as Travel Assistant</a>
+  </td>
 </tr>
 <tr>
 <td><img src="images/parsed_trip.png" width=300></td>
@@ -54,7 +56,8 @@ Travel Assistant.
 <td>From trip details</td>
 <td>to top sights</td>
 <td>to dishes to try and bespoke recommendations.</td>
-</tr></table>
+</tr>
+</table>
 
 **Contextualization through Email Understanding** I led a team of great
 engineers to build the software Gmail uses to automatically extract flight
