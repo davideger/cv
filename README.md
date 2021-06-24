@@ -1,6 +1,8 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z2DVBLC0CV"></script>
-<script>
+
+<script type="text/javascript" async src="https://www.googletagmanager.com/gtag/js?id=G-Z2DVBLC0CV"></script>
+
+<script type="text/javascript">
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
