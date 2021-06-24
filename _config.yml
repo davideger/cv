@@ -2,3 +2,10 @@
 name: David Eger's CV
 theme: jekyll-theme-architect
 google_analytics: G-Z2DVBLC0CV
+site:
+  title: ""
+  description: ""
+  github:
+    is_project_page: false
+    repository_name: ""
+    project_tagline: ""
