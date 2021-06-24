@@ -1,2 +1,4 @@
 # Jekyll configuration
 name: David Eger's CV
+theme: jekyll-theme-architect
+google_analytics: G-Z2DVBLC0CV
