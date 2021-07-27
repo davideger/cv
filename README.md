@@ -1,6 +1,7 @@
 
 # David Eger
 Staff Software Engineer, Google<br/>
+Elsewhere: [blog](https://davideger.github.io/blog/)
 _Last updated: Oct 2020_
 
 ## Google - 2005 - 2020
